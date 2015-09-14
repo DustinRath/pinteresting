@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root "pages#home"
   get "about" => "pages#about" # Creates about_path
+  get "winelist" => "pages#winelist" # Creates Wine_List_Path
+  get "sommelier" => "pages#sommelier" # Creates Sommelier_Corner_Path
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
