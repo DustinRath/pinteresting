@@ -2,7 +2,9 @@
 <h1>Welcome Wine Lovers!</h1>
 
 <% if user_signed_in? %>
-	Enjoy your stay!
+
+<iframe src="https://player.vimeo.com/video/116268602?title=0&byline=0&portrait=0" width="275" height="155" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Rock in Rio Las Vegas 2015! - Beer vs Wine</p>
+
 <% else %>	
 <p>
 	<%= link_to "Log in", new_user_session_path, class: "btn btn-success btn-lg" %>
@@ -13,7 +15,9 @@
 
 <% end %>
 
-<h6>Provided by Dustin D. Rath ©2015
+<h3>Enjoy your stay!</h3>
+
+<h6>Provided by Dustin D. Rath ©2015</h6>
 
 
 </div>
