@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root "pages#home"
   get "about" => "pages#about" # Creates about_path
   get "winelist" => "pages#winelist" # Creates Wine_List_Path
