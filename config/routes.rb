@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :pins
 
   devise_for :users
-  root "pages#home"
+  root "pins#index"
   get "about" => "pages#about" # Creates about_path
   get "winelist" => "pages#winelist" # Creates Wine_List_Path
   get "sommelier" => "pages#sommelier" # Creates Sommelier_Corner_Path

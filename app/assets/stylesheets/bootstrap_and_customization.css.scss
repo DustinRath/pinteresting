@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Questrial);
 
 $body-bg:													#ecf0f1;
-$font-family-sans-serif:					'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+$font-family:										  'Questrial', 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 $navbar-height:										45px;
 $navbar-inverse-bg:								#2c3e50;
 $navbar-inverse-link-color:				white;
@@ -10,6 +10,7 @@ $jumbotron-bg:										#bdc3c7;
 @import "bootstrap-sprockets";
 @import 'bootstrap';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 .center {
 	text-align: center;
