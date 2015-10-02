@@ -3,15 +3,13 @@
 
 <% if user_signed_in? %>
 
-<iframe src="https://player.vimeo.com/video/116268602?title=0&byline=0&portrait=0" width="275" height="155" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Rock in Rio Las Vegas 2015! - Beer vs Wine</p>
-
 <% else %>	
 <p>
 	<%= link_to "Log in", new_user_session_path, class: "btn btn-success btn-lg" %>
   <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
 </p>
 
-<img class="irc_mi" style="margin-top: 66px;" src="http://static.libsyn.com/p/assets/4/b/0/4/4b04e1f68fb37d9b/guildlogosm.jpg" width="300" height="300"> <p>To the city that NEVER sleeps!</p>
+<iframe src="https://player.vimeo.com/video/99491624?title=0&byline=0&portrait=0" width="275" height="155" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p>To the city that NEVER sleeps!</p>
 
 <% end %>
 
